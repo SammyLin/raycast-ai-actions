@@ -1,5 +1,9 @@
 # AI Actions - Raycast Extension
 
+[![Lint](https://github.com/SammyLin/raycast-ai-actions/actions/workflows/lint.yml/badge.svg)](https://github.com/SammyLin/raycast-ai-actions/actions/workflows/lint.yml)
+[![CI](https://github.com/SammyLin/raycast-ai-actions/actions/workflows/ci.yml/badge.svg)](https://github.com/SammyLin/raycast-ai-actions/actions/workflows/ci.yml)
+[![Build](https://github.com/SammyLin/raycast-ai-actions/actions/workflows/build.yml/badge.svg)](https://github.com/SammyLin/raycast-ai-actions/actions/workflows/build.yml)
+
 Quick AI text processing tool - Process selected text with custom AI prompts.
 
 Supports multiple AI endpoints:
