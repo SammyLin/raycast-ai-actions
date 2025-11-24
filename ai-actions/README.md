@@ -9,6 +9,18 @@ Raycast extension for quick AI text processing with customizable prompts.
 - 🌐 Support multiple AI endpoints (Gemini, gemini-balance, OpenRouter)
 - ⚡ Fast and convenient
 
+## Demo
+
+### Manage AI Prompts
+Create and manage your custom prompts:
+
+https://github.com/user-attachments/assets/manage-prompts-demo.mov
+
+### Run AI Prompt
+Execute prompts on selected text:
+
+https://github.com/user-attachments/assets/run-prompt-demo.mov
+
 ## Quick Start
 
 1. Install dependencies: `npm install`
