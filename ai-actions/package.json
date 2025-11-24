@@ -17,14 +17,14 @@
     {
       "name": "manage-prompts",
       "title": "Manage AI Prompts",
-      "subtitle": "AI Quick Actions",
+      "subtitle": "AI Actions",
       "description": "Create and manage your custom AI prompts",
       "mode": "view"
     },
     {
       "name": "run-prompt",
       "title": "Run AI Prompt",
-      "subtitle": "AI Quick Actions",
+      "subtitle": "AI Actions",
       "description": "Select and run a custom AI prompt on selected text",
       "mode": "view"
     }
