@@ -214,10 +214,16 @@ async function generateWithAI(prompt: string, prefs: Preferences): Promise<strin
 
   if (isOpenAI) {
     // OpenAI response format
-    return data.choices?.[0]?.message?.content || "";
+    const openAIData = data as {
+      choices?: Array<{ message?: { content?: string } }>;
+    };
+    return openAIData.choices?.[0]?.message?.content || "";
   } else {
     // Gemini response format
-    const parts = data.candidates?.[0]?.content?.parts || [];
+    const geminiData = data as {
+      candidates?: Array<{ content?: { parts?: Array<{ text?: string }> } }>;
+    };
+    const parts = geminiData.candidates?.[0]?.content?.parts || [];
     return parts[parts.length - 1]?.text || parts[0]?.text || "";
   }
 }
