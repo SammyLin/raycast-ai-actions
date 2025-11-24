@@ -168,7 +168,7 @@ async function generateWithAI(prompt: string, prefs: Preferences): Promise<strin
     // Check if endpoint already has /v1
     const hasV1 = endpoint.endsWith("/v1");
     url = hasV1 ? `${endpoint}/chat/completions` : `${endpoint}/v1/chat/completions`;
-    
+
     headers = {
       "Content-Type": "application/json",
       Authorization: `Bearer ${prefs.apiKey}`,
